@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="design.css" />
+    <script src="./scripts/app.js" type="module"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>College Parking System</h1>
+
+    </header>
+
+
+    <form action="" id="User">
+        <h1>
+            User Registration form
+
+        </h1>
+        <input id="userName" type="text" name="" id="" placeholder="Name" required pattern="[A-Z a-z]+" /><br>
+        <input id="userContact" type="text" placeholder="Contact" required pattern="[0-9]{10}"><br>
+        <!-- <label for="">Gender : </label> -->
+
+        <!-- <label for="">Type :</label> -->
+
+        <select name="" id="userRole">
+            <option value="select" disabled selected>--Select Role--</option>
+            <option value="student">Student</option>
+            <option value="faculty">Faculty</option>
+            <!-- <option value="Guest">Guest</option> -->
+        </select>
+
+
+        <input id="userSubmitButton" type="submit" value="Register"><br>
+
+
+    </form>
+
+
+    <form action="" id="Vehicle">
+        <h1>Vehicle Registration</h1>
+
+        <input id="vehicleName" type="text" name="" id="" placeholder="name/id/ReN" required pattern="[A-Z]{2}[0-9]{2}" /><br>
+
+        <select name="" id="vehicleType">
+            <option value="select" disabled selected>--Select Type--</option>
+            <option value="cycle">Cycle</option>
+            <option value="bike">Bike</option>
+            <option value="car">Car</option>
+        </select>
+
+        <br><br>
+        <input id="vehicleSubmitButton" type="submit" value="ADD">
+
+    </form>
+
+    <form action="" id="passChoice">
+        <h1>Pass Choice</h1>
+        <!-- <input type="button" value="Daily Pass"><br>
+        <input type="button" value="Monthly Pass"><br>
+        <input type="button" value="Yearly Pass"><br><br>  -->
+
+
+    </form>
+
+    <div id="ticket">
+        <!-- <div>
+            <label for="">Pass id </label>
+            <label for="">${this.id}</label>
+        </div>
+
+        <div>
+            <label for="">Vehicle id </label>
+            <label for="">${this.vehicle}</label>
+        </div>
+
+        <div>
+            <label for="">Owner name </label>
+            <label for="">${this.vehicle.owner.name}</label>
+        </div>
+
+        <div>
+            <label for="">Expiry date </label>
+            <label for="">${this.expiry}</label>
+        </div>
+ -->
+
+
+    </div>
+
+    <footer>
+        &copy; copyright 2023 Skit | Jaipur
+
+    </footer>
+
+</body>
+
+</html>
+
+<!-- CSS -->
+<!-- box sizing : border box -->
